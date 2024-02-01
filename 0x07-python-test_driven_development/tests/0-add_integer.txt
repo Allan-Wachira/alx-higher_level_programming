@@ -70,55 +70,55 @@ If either argument is a non-integer and non-float, a TypeError is raised:
 ::
 
     >>> add_integer(2, "hello")
-    Traceback (most recent call last):
+OBOBOBOBOBOB    Traceback (most recent call last):
+OBOB    TypeError: b must be an integer
+
+OBOB::
+
+OBOB    >>> add_integer(None)
+OBOB    Traceback (most recent call last):
+OBOBOB    TypeError: a must be an integer
+OBOB
+OBOBOB::
+OBOBOB
+OBOBOB    >>> add_integer(2.3, None)
+OBOB    Traceback (most recent call last):
     TypeError: b must be an integer
-
-::
-
-    >>> add_integer(None)
-    Traceback (most recent call last):
-    TypeError: a must be an integer
-
-::
-
-    >>> add_integer(2.3, None)
-    Traceback (most recent call last):
-    TypeError: b must be an integer
-
-If both arguments are non-integers and non-floats, a TypeError message is only
+OBOB
+OBOBOBOBOBOBOBIf both arguments are non-integers and non-floats, a TypeError message is only
 printed for the first argument.
-
+OBOBOBOBOBOBOBOB
 ::
-
+OBOBOB
     >>> add_integer("hello", "there")
-    Traceback (most recent call last):
+OBOBOBOBOBOBOBOB    Traceback (most recent call last):
     TypeError: a must be an integer
-
+OBOBOBOB
 The function will fail if infinity is provided.
-
+OB
 ::
-
+OBOBOBOBOBOBOBOBOBOB
     >>> add_integer(float('inf'))
-    Traceback (most recent call last):
+OBOBOB    Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
-     
+OBOBOB     
 
-::
+OBOBOBOBOBOBOBOB::
+OBOBOBOBOB
+OBOBOB    >>> add_integer(2, float('inf'))
+OBOB    Traceback (most recent call last):
+OBOBOB    OverflowError: cannot convert float infinity to integer
+OBOB
+OBOBOBOBAnd again with NaN numbers.
+OBOBOB
+OBOBOB::
 
-    >>> add_integer(2, float('inf'))
+OBOBOBOBOBOBOB    >>> add_integer(float('nan'))
     Traceback (most recent call last):
-    OverflowError: cannot convert float infinity to integer
+OBOBOB    ValueError: cannot convert float NaN to integer
+OBOBOB
+OBOB::
 
-And again with NaN numbers.
-
-::
-
-    >>> add_integer(float('nan'))
-    Traceback (most recent call last):
-    ValueError: cannot convert float NaN to integer
-
-::
-
-    >>> add_integer(2, float('nan'))
-    Traceback (most recent call last):
+OAOA    >>> add_integer(2, float('nan'))
+OBOBOBOBOBOBOBOBOB    Traceback (most recent call last):
     ValueError: cannot convert float NaN to integer
