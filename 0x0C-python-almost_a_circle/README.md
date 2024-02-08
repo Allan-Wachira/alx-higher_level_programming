@@ -1,1 +1,37 @@
-0x0C. Python - Almost a circle
+[master 410885b] 0x0C. Python - Almost a circle
+ 35 files changed, 2858 insertions(+)
+ create mode 100644 0x0C-python-almost_a_circle/README.md
+ create mode 100644 0x0C-python-almost_a_circle/main_files/0-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/1-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/10-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/100-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/11-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/12-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/13-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/14-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/15-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/16-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/17-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/18-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/2-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/3-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/4-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/5-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/6-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/7-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/8-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/9-main.py
+ create mode 100644 0x0C-python-almost_a_circle/main_files/README.md
+ create mode 100644 0x0C-python-almost_a_circle/main_files/Rectangle.csv
+ create mode 100644 0x0C-python-almost_a_circle/main_files/Square.csv
+ create mode 100644 0x0C-python-almost_a_circle/models/README.md
+ create mode 100644 0x0C-python-almost_a_circle/models/__init__.py
+ create mode 100644 0x0C-python-almost_a_circle/models/base.py
+ create mode 100644 0x0C-python-almost_a_circle/models/rectangle.py
+ create mode 100644 0x0C-python-almost_a_circle/models/square.py
+ create mode 100644 0x0C-python-almost_a_circle/tests/README.md
+ create mode 100644 0x0C-python-almost_a_circle/tests/test_models/README.md
+ create mode 100644 0x0C-python-almost_a_circle/tests/test_models/__init__.py
+ create mode 100644 0x0C-python-almost_a_circle/tests/test_models/test_base.py
+ create mode 100644 0x0C-python-almost_a_circle/tests/test_models/test_rectangle.py
+ create mode 100644 0x0C-python-almost_a_circle/tests/test_models/test_square.py
